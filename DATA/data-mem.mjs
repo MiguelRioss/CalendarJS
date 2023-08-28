@@ -8,16 +8,6 @@ function getNewId(){
 }
 
 
-export async function getApoinmets(){
-    return data
-}
-
-export function getApoinmetsFromDay(day){
-    if(!isValidDay) {throw ("Invalid Day")}
-
-    return data.filter((elem) => elem.day== day)
-}
-
 export function deleteApointmentFromDay(apointmentID){
     return data = data.filter((elem) => !(elem.id== apointmentID))
 }

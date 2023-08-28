@@ -21,7 +21,7 @@ const json =   {
 
 //Returns A 
   createApointment(json)
-
+services.getApoinmetsFromDay('28-08-2023')
 //Pass the ID Into the Service , since every Apointment have an ID when introduced to the server
 //Acessed by get methods on apointments
 //services.deleteApointmentFromDay(1)

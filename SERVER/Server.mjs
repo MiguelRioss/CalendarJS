@@ -8,9 +8,7 @@ let app = express()
 app.get('/get', api.getApointments)
 
 
-app.get('/tasks/:id', function(req, rsp) {
-    rsp.end(`GET task with id ${req.params.id}`)
-})
+app.get('/get/:day', api.getApoinmetsFromDay)
 
 app.delete('/tasks/:id', function(req, rsp) {
     rsp.end(`DELETE task with id ${req.params.id}`)

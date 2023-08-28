@@ -5,7 +5,7 @@ export async function createApointment(apointmentToCreate) {
 }
 
 export function getApoinmetsFromDay(apointmentDay) {
-    return dataMEM.getApoinmetsFromDay(apointmentDay)
+    return newDATAMEM.getApoinmetsFromDay(apointmentDay)
 }
 
 export async function getApoinmets() {
